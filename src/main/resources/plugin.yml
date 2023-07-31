@@ -1,0 +1,21 @@
+name: rpgMobSpawn
+version: '${project.version}'
+main: thedavid.rpgmobspawn.RpgMobSpawn
+api-version: '1.20'
+depend: [CommandPanels]
+commands:
+  rpgmobspawn:
+    aliases:
+      - "rms"
+    description: "rpgmobspawn test"
+    usage: "/rpgmobspawn"
+    permission: op
+  mmoutils:
+    aliases:
+      - "mu"
+    description: "mu"
+    usage: "/mu"
+    permission: op
+  mmorecipe:
+    description: "mmorecipe"
+    usage: "/mmorecipe"
